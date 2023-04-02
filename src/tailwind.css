@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Lexend', sans-serif;
+  }
+}
+
+.pattern {
+background-color: #ffffff;
+background-image:  radial-gradient(#aaa 0.9px, transparent 0.9px), radial-gradient(#aaa 0.9px, #ffffff 0.9px);
+background-size: 36px 36px;
+background-position: 0 0,18px 18px;
+}
